@@ -8,6 +8,18 @@
     list-style: none;
     font-family: "Poppins", sans-serif;
 }
+.background{
+    background: linear-gradient(rgba(0,0,0.5),rgb(248, 248, 248));
+    background-image: url(capacapa.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 99vh;
+}
+body{
+    overflow: hidden;
+    
+}
 #titulo{
     font-family:"Poppinms", sans-serif;
     color: #fff;
@@ -37,19 +49,7 @@ header{
 fieldset{
     border:0;
 }
-body{
-    overflow: hidden;
-    background-image:url(capacapa.png);
-   
-    font-size: 1em;
-    color:#fff;
-    margin-left: 7%;
-    background-size: cover;
-    background-position: center;
-    justify-content: center;
-    width: 100%;
-    height: 100vh;
-}
+
 
 input, select, textarea{
     border-radius: 5px;
@@ -95,13 +95,33 @@ button:hover{
     justify-content: center;
     font-size: 13px;
 }
-.campo{
-    margin-top: 2%;
-
+.rede-social{
+    margin-top: 77px;
+    font-size: 50px;
 }
-.container {
-    width: 80%;
-    display: flex;
-    flex-direction: column;
+.rede-social a{
+    color: #2ecc71;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.sobremim > h3{
+    color: #fff;
+    font-family: "Poppins", sans-serif;
     justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+}
+.pag{
+    justify-content: center;
+}
+.container-text{
+    padding: 20px 0 0 130px;
+    color: #fff;
+    margin-top: 5%;
+}
+.container-tex{
+    padding: 150px 0 0 130px;
+    color: #fff;
+    margin-top: 5%;
 }
