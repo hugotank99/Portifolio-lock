@@ -99,3 +99,9 @@ button:hover{
     margin-top: 2%;
 
 }
+.container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
